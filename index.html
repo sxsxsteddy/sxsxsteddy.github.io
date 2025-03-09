@@ -5,20 +5,21 @@
     <style>
         body {
             padding: 0;
-            background-color: rgb(230, 230, 250);
+            background-color: rgb(200, 200, 254);
             color: rgb(42, 0, 0);
-            font-family: Arial, sans-serif;
+            font-family: Arial, serif;
             text-align: center;
         }
-        h2 {
+        h1 {
             font-weight: bold;
             border: solid 1px;
             margin: 0;
             padding-top: 20px;
+            color:rgb(0, 0, 0)
         }   
         a {
             text-decoration: none;
-            color: rgb(42, 0, 0);
+            color: rgb(33, 0, 0);
         }
         .Title {
             position: fixed;
@@ -26,23 +27,27 @@
             left: 0;
             right: 0;
             z-index: 10;
-            background-opacity: 100%;
-            background-color: white;
+            opacity: 100%;
+            background-color: rgb(80, 37, 90);
             height: 50px;
         }
-        p {
-            margin-top: 100px;
+        .p {
+            margin-top: 25px;
+        }
+        audio {
+            margin-top: 50px;
         }
     </style>
 </head>
 <body>
-    <header>
-        <a href="https://youtu.be/XpDEdMu_6O8" target="_blank">
-            <h2 class="Title">Lose Control</h2>
-        </a>
-    </header>
+    <div><header>
+        
+            <h1 class="Title">Lose Control- <em>by Teddy Swims</h1>em></h1>
+    </header></div>
+    <audio href="LoseControlTeddySwims.mp3" controls></audio>
+    <a href="https://youtu.be/XpDEdMu_6O8" target="_blank">
     <main>
-        <p>Something's got a hold of me lately<br>
+        <p class="p">Something's got a hold of me lately<br>
         No, I don't know myself anymore<br>
         Feels like the walls are all closin' in<br>
         And the devil's knockin' at my door, whoa</p>
@@ -82,5 +87,6 @@
         Yeah, you're breakin' my heart, baby<br>
         You make a mess of me, yeah</p>
     </main>
+    </a>
 </body>
 </html>
