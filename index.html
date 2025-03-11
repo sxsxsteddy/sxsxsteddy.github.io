@@ -10,18 +10,20 @@
             font-family: Arial, serif;
             text-align: center;
         }
-        h1 {
-            font-weight: bold;
-            border: solid 1px;
-            margin: 0;
-            padding-top: 20px;
-            color:rgb(0, 0, 0)
+        p {
+            font-size: xx-large;
+            z-index: 2;
         }   
         a {
             text-decoration: none;
             color: rgb(33, 0, 0);
         }
         .Title {
+            font-weight: bold;
+            border: solid 1px;
+            margin: 0;
+            padding-top: 20px;
+            color:rgb(0, 0, 0);
             position: fixed;
             top: 0;
             left: 0;
@@ -31,12 +33,17 @@
             background-color: rgb(80, 37, 90);
             height: 50px;
         }
-        .p {
-            margin-top: 25px;
+        #p {
+            margin-top: 120px;
         }
         audio {
-            margin-top: 50px;
+            z-index: 1;
+            position: fixed;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 77px;
         }
+        
     </style>
 </head>
 <body>
@@ -47,7 +54,7 @@
     <audio src="LoseControlTeddySwims.mp3" controls autoplay></audio>
     <a href="https://youtu.be/XpDEdMu_6O8" target="_blank">
     <main>
-        <p class="p">Something's got a hold of me lately<br>
+        <p id="p">Something's got a hold of me lately<br>
         No, I don't know myself anymore<br>
         Feels like the walls are all closin' in<br>
         And the devil's knockin' at my door, whoa</p>
